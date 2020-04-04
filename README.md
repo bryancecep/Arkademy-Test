@@ -2,65 +2,6 @@
 ## Soal No. 1
  * Kegunaan JSON pada REST API adalah sebagai format untuk mengirim (sending) dan meminta (requesting) data pada REST API. Selain JSON format data transfer bisa berupa XML (eXtensible Markup Language) dan plain text, tetapi format data JSON lebih populer karena berukuran ringan dan formatnya lebih mudah untuk dibaca dan dimengerti.
  
- 
- const myBiodata = () => {
-    return {
-        'name': 'Cecep Bryan Firdaus',
-        'age' : 24,
-        'address' : 'Bandung',
-        'hobbies' : ['Reading', 'Jogging'],
-        'is_married' : false,
-        'list_school' : [
-                            {
-                                name : 'Universitas Pasundan Bandung',
-                                year_in : 2013,
-                                year_out : 2017,
-                                major : 'Ilmu Hubungan Internasional'
-                            },
-
-                            {
-                                name : 'SMAN 1 Subang',
-                                year_in : 2010,
-                                year_out : 2013,
-                                major : 'IPA'
-                            },
-
-                            {
-                                name : 'SMPN 1 Jalancagak',
-                                year_in : 2007,
-                                year_out : 2010,
-                                major : null
-                            },
-
-                            {
-                                name : 'SDN 5 Cisaat',
-                                year_in : 2001,
-                                year_out : 2007,
-                                major : null
-                            }
-                        ],
-        'skills' :  [
-                        {
-                            skill_name : 'English',
-                            level : 'advanced'
-                        },
-
-                        {
-                            skill_name : 'Communications',
-                            level : 'bussines Level'
-                        },
-
-                        {
-                            skill_name : 'Javascript',
-                            level : 'Beginner'
-                        },
-                    ],
-        "interest_in_coding" : true
-    }
-};
-
-console.log(myBiodata());
- 
  ## Soal No. 2
 Format username: hanya boleh di isi huruf besar dengan panjang tepat 7 karakter. Username tidak boleh diawali dengan angka / karakter special.
 
